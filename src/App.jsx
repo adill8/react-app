@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar'
 import Carousel from './Components/Carousel'
 import CatogeryCard from './Components/CatogeryCard'
 import Products from './Components/Products'
+import Footer from './Components/Footer'
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
     <Navbar/>
     <Carousel/>
     <CatogeryCard/>
-      
+      <Products/>
+      <Footer/>
     </div>
   )
 }
