@@ -4,16 +4,19 @@ import Carousel from './Components/Carousel'
 import CatogeryCard from './Components/CatogeryCard'
 import Products from './Components/Products'
 import Footer from './Components/Footer'
+import { Route, Routes } from 'react-router-dom'
+import ProductDetail from './Components/ProductDetail'
 
 const App = () => {
   return (
-    <div>
+    <>
     <Navbar/>
-    <Carousel/>
-    <CatogeryCard/>
-      <Products/>
+    <Routes>
+    <Route path='/' element={<><Carousel/><CatogeryCard/><Products/></>}/>
+    <Route path='/productDetail' element={<ProductDetail/>}/>
+    </Routes>
       <Footer/>
-    </div>
+    </>
   )
 }
 

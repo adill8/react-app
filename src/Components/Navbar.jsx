@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FiUser, FiSearch, FiHeart, FiShoppingCart, FiMenu, FiX } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,17 +10,12 @@ const Navbar = () => {
       <div className="container flex justify-between items-center mx-auto px-4">
         {/* Logo */}
         <div className="flex items-center space-x-2">
-          {/* <img
-            src="https://cdn.dribbble.com/userupload/16261470/file/still-473525771cced792fcf7c363a24f67c7.png?format=webp&resize=400x300&vertical=center"
-            alt="Furniro Logo"
-            className="h-10 w-auto object-contain"
-          /> */}
           <span className="text-xl font-bold">Furniro</span>
         </div>
 
         {/* Desktop Nav Links */}
         <ul className="hidden md:flex space-x-6 text-gray-700 text-lg font-medium">
-          <li className='px-4'><a href="#">Home</a></li>
+          <li className='px-4'><Link to="/">Home</Link></li>
           <li className='px-4'><a href="#">Shop</a></li>
           <li className='px-4'><a href="#">About</a></li>
           <li className='px-4'><a href="#">Contact</a></li>

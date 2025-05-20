@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Products = () => {
   return (
@@ -6,11 +7,11 @@ const Products = () => {
       <h1 className="font-bold text-center my-5 text-3xl">Our Products</h1>
       <div className="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
         {/* Card 1 */}
+        <Link to ='/productDetail'>
         <div className="bg-white rounded-sm shadow-md overflow-hidden relative">
           <span className="absolute top-2 right-2 bg-red-400 text-white text-sm font-semibold p-2 rounded-full">
             -30%
           </span>
-
           <img
             src="/images/Table.png"
             alt="Product"
@@ -28,6 +29,7 @@ const Products = () => {
             </div>
           </div>
         </div>
+        </Link>
 
          {/* Card 2 */}
          <div className="bg-white rounded-sm shadow-md overflow-hidden relative">
