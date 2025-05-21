@@ -16,9 +16,9 @@ const Navbar = () => {
         {/* Desktop Nav Links */}
         <ul className="hidden md:flex space-x-6 text-gray-700 text-lg font-medium">
           <li className='px-4'><Link to="/">Home</Link></li>
-          <li className='px-4'><a href="#">Shop</a></li>
-          <li className='px-4'><a href="#">About</a></li>
-          <li className='px-4'><a href="#">Contact</a></li>
+          <li className='px-4'><Link to="/ourProducts">Shop</Link></li>
+          <li className='px-4'><Link to="/aboutUs">About</Link></li>
+          <li className='px-4'><Link to="contect">Contact</Link></li>
         </ul>
 
         {/* Icons */}

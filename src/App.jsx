@@ -6,6 +6,9 @@ import Products from './Components/Products'
 import Footer from './Components/Footer'
 import { Route, Routes } from 'react-router-dom'
 import ProductDetail from './Components/ProductDetail'
+import ContectUs from './Components/ContectUs'
+import OurProducts from './Components/OurProducts'
+import AboutUs from './Components/AboutUs'
 
 const App = () => {
   return (
@@ -14,6 +17,9 @@ const App = () => {
     <Routes>
     <Route path='/' element={<><Carousel/><CatogeryCard/><Products/></>}/>
     <Route path='/productDetail' element={<ProductDetail/>}/>
+    <Route path='/contect' element={<ContectUs/>}/>
+    <Route path='/ourProducts' element={<OurProducts/>}/>
+    <Route path='/aboutUs' element={<AboutUs/>}/>
     </Routes>
       <Footer/>
     </>
