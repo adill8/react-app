@@ -9,6 +9,7 @@ import ProductDetail from './Components/ProductDetail'
 import ContectUs from './Components/ContectUs'
 import OurProducts from './Components/OurProducts'
 import AboutUs from './Components/AboutUs'
+import EditProduct from './Components/EditProduct'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
     <Route path='/contect' element={<ContectUs/>}/>
     <Route path='/ourProducts' element={<OurProducts/>}/>
     <Route path='/aboutUs' element={<AboutUs/>}/>
+    <Route path='/edit/:id' element= {<EditProduct/>}/>
     </Routes>
       <Footer/>
     </>
