@@ -5,7 +5,10 @@ import { FaEdit } from "react-icons/fa";
 import { FaTrashCan } from "react-icons/fa6";
 
 const OurProducts = () => {
-  const [updateProducts, setUpdateProducts] = useState(productsData);
+  const [updateProducts, setUpdateProducts] = useState(()=>{
+    const data = localStorage.getItem("products");
+    return data ? JSON.parse(data) : productsData;
+  });
 
   const handleDelte = (id) => {
     const isConfirmed = window.confirm(
@@ -13,8 +16,9 @@ const OurProducts = () => {
     );
 
     if (isConfirmed) {
-      const updatedProducts = updateProducts.filter((p) => p.id !== id);
+      const updatedProducts = updateProducts.filter((p) => p.id !== Number(id));
       setUpdateProducts(updatedProducts);
+      localStorage.setItem("products", JSON.stringify(updatedProducts));
     }
   };
 

@@ -10,6 +10,7 @@ import ContectUs from './Components/ContectUs'
 import OurProducts from './Components/OurProducts'
 import AboutUs from './Components/AboutUs'
 import EditProduct from './Components/EditProduct'
+import AddProduct from './Components/AddProduct'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
     <Route path='/ourProducts' element={<OurProducts/>}/>
     <Route path='/aboutUs' element={<AboutUs/>}/>
     <Route path='/edit/:id' element= {<EditProduct/>}/>
+    <Route path='/addProduct' element = {<AddProduct/>}/>
     </Routes>
       <Footer/>
     </>
