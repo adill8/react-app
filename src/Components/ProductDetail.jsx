@@ -1,9 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import productDetail from "../Data/productDetailsData";
 
 const ProductDetail = () => {
   const { id } = useParams();
+  const productDetail = JSON.parse(localStorage.getItem("products")) || [];
 
   const detail = productDetail.find((p) => p.id === parseInt(id));
 
