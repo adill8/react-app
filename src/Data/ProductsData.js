@@ -2,7 +2,7 @@ const productsData = [
   {
     id: 1,
     name: 'Syltherine',
-    description: 'Stylish cafe chair',
+    description: 'A modern, stylish cafe chair perfect for minimal interiors. Durable and lightweight for daily use.',
     salePrice: 2500.000,
     price: 3500.000,
     tag: '30%',
@@ -11,7 +11,7 @@ const productsData = [
   {
     id: 2,
     name: 'Leviosa',
-    description: 'Stylish cafe chair',
+    description: 'Ergonomic cafe chair with a sleek design. Ideal for dining or workspaces.',
     salePrice: 2500.000,
     price: 2500.000,
     image: '/images/Chair.png',
@@ -19,7 +19,7 @@ const productsData = [
   {
     id: 3,
     name: 'Lolito',
-    description: 'Luxury Big sofa',
+    description: 'Spacious luxury sofa with deep cushions. Perfect for a cozy and elegant living room.',
     salePrice: 7000.000,
     price: 14000.000,
     tag: '50%',
@@ -28,17 +28,16 @@ const productsData = [
   {
     id: 4,
     name: 'Respira',
-    description: 'Outdoor tables and stool',
+    description: 'Outdoor table and stool set with a modern look. Great for patios and gardens.',
     salePrice: 5000.000,
     price: 5000.000,
     tag: 'New',
-    image:
-      'https://plus.unsplash.com/premium_photo-1661780295073-98db12600af0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c29mYXxlbnwwfHwwfHx8MA%3D%3D',
+    image: 'https://plus.unsplash.com/premium_photo-1661780295073-98db12600af0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c29mYXxlbnwwfHwwfHx8MA%3D%3D',
   },
   {
     id: 5,
     name: 'Grifo',
-    description: 'Night Lamp',
+    description: 'Compact night lamp with soft lighting. Perfect for bedside or workspace ambiance.',
     salePrice: 1500.000,
     price: 1500.000,
     image: '/images/Lamp.png',
@@ -46,7 +45,7 @@ const productsData = [
   {
     id: 6,
     name: 'Mugoo',
-    description: 'Stylish Sofa',
+    description: 'L-shape luxury sofa with premium comfort. Ideal for larger living rooms or lounge spaces.',
     salePrice: 15000.00,
     price: 15000.00,
     tag: 'New',
@@ -55,17 +54,16 @@ const productsData = [
   {
     id: 7,
     name: 'Lolito',
-    description: 'Luxury Big sofa',
+    description: 'Modern luxury sofa with wide seating. Adds style and comfort to any living room.',
     salePrice: 7000.000,
     price: 14000.000,
     tag: '50%',
-    image:
-      'https://images.unsplash.com/photo-1655149555309-2c8be470d09e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bHV4cnklMjBiaWclMjBzb2ZhfGVufDB8fDB8fHww',
+    image: 'https://images.unsplash.com/photo-1655149555309-2c8be470d09e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bHV4cnklMjBiaWclMjBzb2ZhfGVufDB8fDB8fHww',
   },
   {
     id: 8,
     name: 'Sofa',
-    description: 'Outdoor Sofa',
+    description: 'Outdoor sofa built for comfort and weather resistance. Blends well with any patio decor.',
     salePrice: 5000.000,
     price: 5000.000,
     tag: 'New',
@@ -74,7 +72,7 @@ const productsData = [
   {
     id: 9,
     name: 'Lolito',
-    description: 'Luxury Big sofa',
+    description: 'Elegant, large-sized sofa for a luxurious look. Deep seating with plush cushions.',
     salePrice: 7000.000,
     price: 14000.000,
     tag: '50%',
@@ -83,17 +81,16 @@ const productsData = [
   {
     id: 10,
     name: 'Respira',
-    description: 'Outdoor tables and stool',
+    description: 'Weather-resistant table and stools. Great for balconies and outdoor relaxation.',
     salePrice: 5000.000,
     price: 5000.000,
     tag: 'New',
-    image:
-      'https://plus.unsplash.com/premium_photo-1661780295073-98db12600af0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c29mYXxlbnwwfHwwfHx8MA%3D%3D',
+    image: 'https://plus.unsplash.com/premium_photo-1661780295073-98db12600af0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c29mYXxlbnwwfHwwfHx8MA%3D%3D',
   },
   {
     id: 11,
     name: 'Grifo',
-    description: 'Night Lamp',
+    description: 'Stylish night lamp for soft, cozy lighting. Compact and easy to place anywhere.',
     salePrice: 1500.000,
     price: 1500.000,
     image: '/images/Lamp.png',
@@ -101,47 +98,11 @@ const productsData = [
   {
     id: 12,
     name: 'Syltherine',
-    description: 'Stylish cafe chair',
+    description: 'Trendy cafe chair with smooth edges and sturdy design. Ideal for modern interiors.',
     salePrice: 2500.000,
     price: 3500.000,
     tag: '30%',
     image: '/images/Table.png',
-  },
-  {
-    id: 13,
-    name: 'Leviosa',
-    description: 'Stylish cafe chair',
-    salePrice: 2500.000,
-    price: 2500.000,
-    image: '/images/Chair.png',
-  },
-  {
-    id: 14,
-    name: 'Mugoo',
-    description: 'Stylish Sofa',
-    salePrice: 15000.00,
-    price: 15000.00,
-    tag: 'New',
-    image: '/images/L-shape sofa.png',
-  },
-  {
-    id: 15,
-    name: 'Lolito',
-    description: 'Luxury Big sofa',
-    salePrice: 7000.000,
-    price: 14000.000,
-    tag: '50%',
-    image:
-      'https://images.unsplash.com/photo-1655149555309-2c8be470d09e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bHV4cnklMjBiaWclMjBzb2ZhfGVufDB8fDB8fHww',
-  },
-  {
-    id: 16,
-    name: 'Sofa',
-    description: 'Outdoor Sofa',
-    salePrice: 5000.000,
-    price: 5000.000,
-    tag: 'New',
-    image: '/images/Sofa.jpg',
   },
 ];
 

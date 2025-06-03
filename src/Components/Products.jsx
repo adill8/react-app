@@ -22,7 +22,7 @@ const Products = () => {
         <img
           src={product.image}
           alt="Product"
-          className="w-full h-80 object-cover"
+          className="w-full h-80 object-cover rounded"
         />
           <div className="p-4 bg-gray-100">
           <h5 className="text-xl text-start font-semibold mb-1">{product.name}</h5>

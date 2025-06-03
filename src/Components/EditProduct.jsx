@@ -7,7 +7,8 @@ import OurProducts from "./OurProducts";
 const EditProduct = () => {
   const { id } = useParams();
   const [updateProduct, setUpdateProduct] = useState(()=>{
-    JSON.parse(localStorage.getItem("products")) || productsData
+
+   return JSON.parse(localStorage.getItem("products")) || productsData
   });
 
   const productEdit = updateProduct.find((p) => p.id === Number(id));

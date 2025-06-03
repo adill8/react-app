@@ -6,8 +6,7 @@ import { FaTrashCan } from "react-icons/fa6";
 
 const OurProducts = () => {
   const [updateProducts, setUpdateProducts] = useState(()=>{
-    const data = localStorage.getItem("products");
-    return data ? JSON.parse(data) : productsData;
+   return JSON.parse(localStorage.getItem("products")) || productsData
   });
 
   const handleDelte = (id) => {
