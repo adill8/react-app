@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CategoryCard = () => {
   return (
@@ -15,10 +16,12 @@ const CategoryCard = () => {
     <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-5">
     
       {/* Card 1 */}
+      <Link to={""}>
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
         <img src="/images/Mask Group.png" alt="..." className="w-full object-cover" />
         <p className='text-center font-bold my-7 text-2xl'>Dining</p>
       </div>
+      </Link>
 
       {/* Card 2 */}
       <div className="bg-white rounded-lg shadow-md overflow-hidden">
